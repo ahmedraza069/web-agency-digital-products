@@ -61,7 +61,7 @@ a{
     font-weight: 800;
     color: white;
 }
-.banner_text span{
+span{
     color: orangered;
 }
 .banner_text p{
@@ -70,7 +70,7 @@ a{
     color: white;
     padding: 20px 0px;
 }
-.banner_text .btn-primary{
+.btn-primary{
     border: none;
     background-color: orangered;
     color: white;
@@ -80,8 +80,116 @@ a{
      border-radius: 5px;
      
 }
-.banner_text .btn{
+.btn{
     color: orangered;
     background-color: white;
     margin: 20px 30px;
+}
+.service_part{
+    background-image: url(../assets/image/footer-bg.png),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.7));
+    height: 100vh;
+    background-blend-mode: overlay;
+    display: flex;
+    gap: 50px;
+    padding: 50px 150px 150px 150px;
+    align-items: center;
+}
+.service_text, ol{
+    color: white;
+}
+.service_text .btn{
+    margin: 20px 0px;
+}
+.service_text h2{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 20px 0px;
+
+} 
+.service_text p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.service_text ol{
+    line-height: 30px;
+}
+.author_part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-right: 2px solid white;
+    padding-right: 40px;
+}
+
+.author_image img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+.service_director{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    
+}
+.service_director p{
+    padding: 0px;
+}
+
+
+.service_icon{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.icon_part{
+    background-color: white;
+    margin: 0px 15px 15px 0px;
+    border-radius: 10px;
+    padding: 40px;
+}
+.icon_part img{
+    width: 100%;
+}
+.icon_part h4{
+    font-size: 16px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.consultation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(245, 44, 44);
+    margin: 0px 155px;
+    border-radius: 20px;
+    gap: 30px;
+    padding: 20px;
+    color: white;
+    position: absolute;
+    bottom: -130%;
+    left: 0;
+}
+.calling_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-right: 2px solid white;
+}
+.icon_text{
+    margin: 0px 20px;
+}
+
+
+
+.calling_icon_part img{
+    width: 100px;
+    height: 100px;  
 }
