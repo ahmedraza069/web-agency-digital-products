@@ -1,5 +1,5 @@
 *{
-    margin: 0 , auto;
+    margin: 0  auto;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
@@ -16,3 +16,72 @@ a{
 /* common css end */
 
 /* navbar start */
+.navbar{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center ;
+}
+.logo p{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.menu-chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-chart li{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+/* navbar coding end */
+
+.banner_image{
+   background-image: url('../assets/image/background.jpg'),linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4));
+   height: 100vh;
+   background-blend-mode: overlay;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.banner_text{
+    width: 800px;
+}
+.banner_text h1{
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+}
+.banner_text span{
+    color: orangered;
+}
+.banner_text p{
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    padding: 20px 0px;
+}
+.banner_text .btn-primary{
+    border: none;
+    background-color: orangered;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+     padding: 20px;
+     border-radius: 5px;
+     
+}
+.banner_text .btn{
+    color: orangered;
+    background-color: white;
+    margin: 20px 30px;
+}
